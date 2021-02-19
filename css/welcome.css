@@ -10,6 +10,7 @@ color: white;
 font-size: 15px;
 }
 
+
 #overlay {
     position: fixed;
     width: 100%; 
@@ -29,7 +30,7 @@ font-size: 15px;
     right: 0px;
     height: 440px;
     width: 355px;
-    margin-top: 35%;
+    top: 15%;
     
 }
 #welcome
@@ -57,5 +58,4 @@ font-size: 15px;
     margin-top: 0;
     text-align: right;
     border: 1px solid white;
-    
 }
