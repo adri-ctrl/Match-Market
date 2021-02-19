@@ -1,15 +1,14 @@
 h1{
 font-family: "made saonara", serif;
 color: white;
-font-size: 28px;
+font-size: 56px;
 }
 
 p{
 font-family: "acumin pro", "helvetica neue", "helvetica", "sans-serif";
 color: white;
-font-size: 15px;
+font-size: 30px;
 }
-
 
 #overlay {
     position: fixed;
@@ -24,6 +23,55 @@ font-size: 15px;
     z-index: 2;
 }
 
+.textBox
+{ 
+    position: absolute;
+    right: 0px;
+    height: 880px;
+    width: 710px;
+    top: 10%;
+    z-index: 3;
+    
+}
+#welcome
+{
+    height: 280px;
+    width: 710px;
+    padding-left: 40px;
+    padding-top: 110px;
+    margin-bottom: 0%;
+    border: 2px solid white;
+}
+#value
+{
+    height: 480px;
+    width: 710px;
+    padding-left: 40px;
+    padding-top: 180px;
+    margin-bottom: 0%;
+    border: 2px solid white;
+}
+#start
+{
+    height: 120px;
+    width: 710px;
+    margin-top: 0;
+    text-align: right;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-family: "made saonara", serif;
+        color: white;
+        font-size: 28px;
+        }
+        
+        p{
+        font-family: "acumin pro", "helvetica neue", "helvetica", "sans-serif";
+        color: white;
+        font-size: 15px;
+        }
 .textBox
 {
     position: absolute;
@@ -58,4 +106,5 @@ font-size: 15px;
     margin-top: 0;
     text-align: right;
     border: 1px solid white;
+}
 }
