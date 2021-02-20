@@ -1,5 +1,13 @@
+
+@font-face {
+    font-family: 'made_saonararegular';
+    src: url('made_saonara_personal_use-webfont.woff2') format('woff2'),
+         url('made_saonara_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 h1{
-font-family: "made saonara", serif;
+font-family: 'made_saonararegular', serif;
 color: white;
 font-size: 24px;
 }
