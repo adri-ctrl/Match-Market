@@ -1,0 +1,1 @@
+$(".textBox").removeAttribute(".overlay");
