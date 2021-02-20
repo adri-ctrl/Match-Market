@@ -1,13 +1,13 @@
 h1{
 font-family: "made saonara", serif;
 color: white;
-font-size: 56px;
+font-size: 24px;
 }
 
 p{
 font-family: "acumin pro", "helvetica neue", "helvetica", "sans-serif";
 color: white;
-font-size: 30px;
+font-size: 15px;
 }
 
 .overlay{
@@ -25,86 +25,40 @@ font-size: 30px;
 
 .textBox
 { 
+    background-color:rgba(0,0,0,0.5);
     position: absolute;
     right: 0px;
-    height: 880px;
-    width: 710px;
-    top: 10%;
-    z-index: 3;
+    height: 450px;
+    width: 355px;
+    top: 25%;
+    z-index: 4;
     
 }
 #welcome
-{
-    height: 280px;
-    width: 710px;
-    padding-left: 40px;
-    padding-top: 110px;
-    margin-bottom: 0%;
-    border: 2px solid white;
-}
-#value
-{
-    height: 480px;
-    width: 710px;
-    padding-left: 40px;
-    padding-top: 180px;
-    margin-bottom: 0%;
-    border: 2px solid white;
-}
-#start
 {
     height: 120px;
-    width: 710px;
-    margin-top: 0;
-    text-align: right;
-    border: 2px solid white;
-}
-
-@media screen and (max-width: 768px) {
-    h1{
-        font-family: "made saonara", serif;
-        color: white;
-        font-size: 28px;
-        }
-        
-        p{
-        font-family: "acumin pro", "helvetica neue", "helvetica", "sans-serif";
-        color: white;
-        font-size: 15px;
-        }
-.textBox
-{
-    position: absolute;
-    right: 0px;
-    height: 440px;
-    width: 355px;
-    top: 15%;
-    
-}
-#welcome
-{
-    height: 140px;
-    width: 355px;
+    width: 335px;
     padding-left: 20px;
-    padding-top: 55px;
-    margin-bottom: 0%;
-    border: 1px solid white;
+    padding-top: 20px;
+    border: 2px solid white;
+
 }
 #value
 {
-    height: 240px;
-    width: 355px;
+    height: 200px;
+    width: 335px;
     padding-left: 20px;
-    padding-top: 90px;
-    margin-bottom: 0%;
-    border: 1px solid white;
+    padding-top: 40px;
+    border: 2px solid white;
+    
 }
 #start
 {
     height: 60px;
     width: 355px;
-    margin-top: 0;
     text-align: right;
-    border: 1px solid white;
+    border: 2px solid white;
+   
 }
-}
+
+@media screen and (max-width: 768px) 

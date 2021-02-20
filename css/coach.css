@@ -25,11 +25,10 @@
     #learn
     {
         color: black;
-        font-size: 20pt;
+        font-size: 18pt;
         height: 140px;
         width: 335px;
         padding-left: 20px;
-        margin-bottom: 0%;
         border: 1px solid black;
         
     }
@@ -37,15 +36,19 @@
     {
         height: 420px;
         width: 355px;
-        margin-bottom: 0%;
         border: 1px solid black;
     }
     #next
     {
-        height: 90px;
-        width: 355px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        font-family:"acumin pro", "helvetica neue", "helvetica", "sans-serif"; 
+        font-size: 12pt;
+        height: 60px;
+        width: 335px;
+        padding: 10px;  
         border: 1px solid black;
-        text-align: center;
     }
     
 
@@ -57,7 +60,7 @@
         margin-top: 15px;
 
     }
-    #nextText a{
+    #next a{
     text-decoration: none;
 }
     @media screen and (max-width: 768px) {
